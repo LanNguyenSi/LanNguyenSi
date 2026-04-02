@@ -22,7 +22,7 @@ I care about **clean code, good defaults, and software that just works**.
 
 ## Stack
 
-TypeScript · Next.js · Node.js · PostgreSQL · ClickHouse · Docker · Traefik
+Symfony · TypeScript · Next.js · Node.js · PostgreSQL · Doctrine · Docker · Kubernetes · Traefik
 
 ---
 
