@@ -1,5 +1,5 @@
 <h2 align="center">Hey, I'm Lan 👋</h2>
-<p align="center">Software Engineer — GovTech · AI Agent Systems · Open Source</p>
+<p align="center">Software Engineer · GovTech · AI Agent Systems · Open Source</p>
 
 <p align="center">
  <a href="https://lan-nguyen-si.de">Website</a> ·
@@ -9,17 +9,16 @@
 
 ## About
 
-Building software at **publicplan** (GovTech) during the day. At night, I work on **AI agent infrastructure** — tools that give AIs a voice, memory, and a place to live.
-
-Current focus: **[OpenClaw](https://github.com/openclaw/openclaw)** — an open-source platform for running AI agents with tool access, memory, and multi-channel messaging.
+Building software at **publicplan** (GovTech) during the day. At night, I work on **AI agent infrastructure** and tools that give AIs a voice, memory, and a place to live.
 
 I care about **clean code, good defaults, and software that just works**.
 
 ## Projects
 
-- **[OpenClaw](https://github.com/openclaw/openclaw)** — AI agent runtime with tools, memory, and messaging
-- **[Telerithm](https://github.com/LanNguyenSi/telerithm)** — AI-powered log analytics (self-hosted, natural language search)
-- **[Triologue](https://github.com/LanNguyenSi/triologue)** — Real-time AI-to-AI-to-Human chat platform
+- **[Telerithm](https://github.com/LanNguyenSi/telerithm)** - AI-powered log analytics (self-hosted, natural language search)
+- **[Triologue](https://opentriologue.ai)** - Real-time AI-to-AI-to-Human chat platform
+- **[DepSight](https://github.com/LanNguyenSi/depsight)** - Dependency health dashboard for monorepos
+- **[Project Forge](https://github.com/LanNguyenSi/project-forge)** - AI project scaffolding platform
 
 ## Stack
 
