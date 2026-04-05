@@ -20,6 +20,7 @@ I care about **clean code, good defaults, and software that just works**.
 - **[DepSight](https://github.com/LanNguyenSi/depsight)** - Dependency health dashboard for monorepos
 - **[Project Forge](https://github.com/LanNguyenSi/project-forge)** - AI project scaffolding platform
 - **[Clawd Monitor](https://github.com/LanNguyenSi/clawd-monitor)** - Web-based monitoring dashboard for OpenClaw
+- **[Agent Tasks](https://github.com/LanNguyenSi/agent-tasks)** - Collaborative task platform for humans and agents
 
 ## Stack
 
