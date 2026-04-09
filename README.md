@@ -8,11 +8,11 @@
 
 ## What I build
 
-Software at **publicplan** (GovTech) during the day. At night, I build **infrastructure for human-agent software development** — tools that let AI agents plan, build, validate, deploy, and monitor software alongside humans.
+Software at **publicplan** (GovTech) during the day. At night, I build **infrastructure for human-agent software development**: tools that let AI agents plan, build, validate, deploy, and monitor software alongside humans.
 
 ## Product Lines
 
-### [Project OS](https://github.com/LanNguyenSi/project-os) — Human-Agent Dev Lifecycle
+### [Project OS](https://github.com/LanNguyenSi/project-os) · Human-Agent Dev Lifecycle
 
 The full pipeline from idea to production, built for teams that work with AI agents.
 
@@ -23,30 +23,36 @@ The full pipeline from idea to production, built for teams that work with AI age
 | [agent-relay](https://github.com/LanNguyenSi/agent-relay) | Controlled execution on VPS targets | |
 | [agent-ops-dashboard](https://github.com/LanNguyenSi/agent-ops-dashboard) | Agent health monitoring | [ops.opentriologue.ai](https://ops.opentriologue.ai) |
 | [project-forge](https://github.com/LanNguyenSi/project-forge) | Project scaffolding | [project-forge.opentriologue.ai](https://project-forge.opentriologue.ai) |
+| [scaffoldkit](https://github.com/LanNguyenSi/scaffoldkit) | Declarative blueprint engine for project-forge | |
 | [agent-planforge](https://github.com/LanNguyenSi/agent-planforge) | Architecture planning + backlog generation | |
 | [agent-preflight](https://github.com/LanNguyenSi/agent-preflight) | Pre-push validation | |
 
-### [Agent Grounding](https://github.com/LanNguyenSi/agent-grounding) — Verification & Debugging
+### [Agent Grounding](https://github.com/LanNguyenSi/agent-grounding) · Verification & Debugging
 
 Prevents agents from acting on assumptions. 8 packages for runtime checks, claim validation, evidence tracking, and guided debugging.
 
-### [Repo Intelligence](https://github.com/LanNguyenSi/repo-intelligence) — Repository Health
+### [Repo Intelligence](https://github.com/LanNguyenSi/repo-intelligence) · CI & Repo Health
 
-Dependency tracking, CVE scanning, CI insights, and performance drift detection. [depsight](https://github.com/LanNguyenSi/depsight) is the flagship.
+CI insights, repo health scoring, and performance drift detection. [depsight](https://github.com/LanNguyenSi/depsight) is the standalone flagship for dependency health and CVE tracking.
 
-### [Agent Memory](https://github.com/LanNguyenSi/agent-memory) — Persistent Memory
+### [Agent Memory](https://github.com/LanNguyenSi/agent-memory) · Persistent Memory
 
 Sync, weave, and digest agent memories across sessions and environments.
 
-### [Agent DX](https://github.com/LanNguyenSi/agent-dx) — Developer Experience
+### [Agent DX](https://github.com/LanNguyenSi/agent-dx) · Developer Experience
 
-Scaffolding tools, playbooks, and best practices for building with AI agents.
+Playbooks and tooling for teams building with AI agents.
+
+### [Dev Tools](https://github.com/LanNguyenSi/dev-tools) · CLI Utilities
+
+Release preparation and batch Git operations.
 
 ## Standalone Projects
 
-- **[Telerithm](https://github.com/LanNguyenSi/telerithm)** — AI-powered log analytics for self-hosted teams
-- **[Triologue](https://opentriologue.ai)** — Real-time AI-AI-Human collaboration platform
-- **[Clawd Monitor](https://github.com/LanNguyenSi/clawd-monitor)** — Monitoring dashboard for OpenClaw
+- **[Telerithm](https://github.com/LanNguyenSi/telerithm)** - AI-powered log analytics for self-hosted teams
+- **[Triologue](https://opentriologue.ai)** - Real-time AI-AI-Human collaboration platform
+- **[Depsight](https://github.com/LanNguyenSi/depsight)** - Dependency health dashboard, CVE tracking, security scoring
+- **[Clawd Monitor](https://github.com/LanNguyenSi/clawd-monitor)** - Monitoring dashboard for OpenClaw
 
 ## Stack
 
