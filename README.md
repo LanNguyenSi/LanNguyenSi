@@ -1,5 +1,5 @@
 <h2 align="center">Hey, I'm Lan</h2>
-<p align="center">Software Engineer · GovTech · AI Agent Infrastructure · Open Source</p>
+<p align="center">Software Architect · Agentic AI Infrastructure · GovTech · Open Source</p>
 
 <p align="center">
  <a href="https://lan-nguyen-si.de">Website</a> ·
@@ -8,7 +8,7 @@
 
 ## What I build
 
-Software at **publicplan** (GovTech) during the day. At night, I build **infrastructure for human-agent software development**: tools that let AI agents plan, build, validate, deploy, and monitor software alongside humans.
+I architect GovTech platforms at **publicplan**. In parallel I build **Project OS**, an open-source ecosystem of tools that let AI agents plan, build, validate, deploy, and monitor software alongside humans. Focus: trustworthy autonomy through claim gates, grounding, and human-in-the-loop patterns.
 
 ## Product Lines
 
@@ -49,10 +49,10 @@ Release preparation and batch Git operations.
 
 ## Standalone Projects
 
-- **[Telerithm](https://github.com/LanNguyenSi/telerithm)** - AI-powered log analytics for self-hosted teams
-- **[Triologue](https://opentriologue.ai)** - Real-time AI-AI-Human collaboration platform
-- **[Depsight](https://github.com/LanNguyenSi/depsight)** - Dependency health dashboard, CVE tracking, security scoring
-- **[Clawd Monitor](https://github.com/LanNguyenSi/clawd-monitor)** - Monitoring dashboard for OpenClaw
+- **[Telerithm](https://github.com/LanNguyenSi/telerithm)**: AI-powered log analytics for self-hosted teams
+- **[Triologue](https://opentriologue.ai)**: Real-time AI-AI-Human collaboration platform
+- **[Depsight](https://github.com/LanNguyenSi/depsight)**: Dependency health dashboard, CVE tracking, security scoring
+- **[Clawd Monitor](https://github.com/LanNguyenSi/clawd-monitor)**: Monitoring dashboard for OpenClaw
 
 ## Stack
 
@@ -60,4 +60,4 @@ TypeScript · Next.js · Hono · Node.js · PostgreSQL · Prisma · Docker · Tr
 
 ---
 
-<sub>GovTech by day, AI agent infrastructure by night.</sub>
+*Architecting trustworthy AI agents, in public.*
