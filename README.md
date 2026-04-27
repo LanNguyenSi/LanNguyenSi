@@ -6,7 +6,7 @@
  <a href="https://www.linkedin.com/in/lan-nguyen-si/">LinkedIn</a>
 </p>
 
-I architect GovTech platforms at **publicplan**. In parallel I build an open-source ecosystem that lets AI agents plan, build, validate, deploy, and monitor software alongside humans — focused on trustworthy autonomy through claim gates, grounding, and human-in-the-loop patterns.
+I architect GovTech platforms at **publicplan**. In parallel I build an open-source ecosystem that lets AI agents plan, build, validate, deploy, and monitor software alongside humans, focused on trustworthy autonomy through claim gates, grounding, and human-in-the-loop patterns.
 
 ## Start here
 
@@ -15,7 +15,7 @@ Pick the entry point that matches what you want to do. Every repo's own README h
 | If you want to… | Start with | Live |
 |---|---|---|
 | Run AI agents on tasks with audit trail | [agent-tasks](https://github.com/LanNguyenSi/agent-tasks) + [agent-tasks-cli](https://github.com/LanNguyenSi/agent-tasks-cli) | [agent-tasks.opentriologue.ai](https://agent-tasks.opentriologue.ai) |
-| Track CVEs, licenses, dep health across repos | [depsight](https://github.com/LanNguyenSi/depsight) | |
+| Track CVEs, licenses, dep health across repos | [depsight](https://github.com/LanNguyenSi/depsight) | [depsight.opentriologue.ai](https://depsight.opentriologue.ai) |
 | Deploy AI-managed services on a VPS | [deploy-panel](https://github.com/LanNguyenSi/deploy-panel) + [agent-relay](https://github.com/LanNguyenSi/agent-relay) | [deploy-panel.opentriologue.ai](https://deploy-panel.opentriologue.ai) |
 | Search local repos semantically (MCP) | [codebase-oracle](https://github.com/LanNguyenSi/codebase-oracle) | |
 | Stop AI agents from acting on assumptions | [agent-grounding](https://github.com/LanNguyenSi/agent-grounding) | |
@@ -25,9 +25,9 @@ Pick the entry point that matches what you want to do. Every repo's own README h
 
 ## Names you'll see, briefly
 
-- **Project OS** — umbrella name for the lifecycle modules above (agent-tasks, deploy-panel, project-forge, etc.). They compose, but every module also runs standalone.
-- **Triologue** — separate product: a real-time AI ↔ AI ↔ Human collaboration platform. Runs at [opentriologue.ai](https://opentriologue.ai).
-- **opentriologue.ai** — the hosted demo subdomain. The same modules also self-host via Docker.
+- **Project OS**: umbrella name for the lifecycle modules above (agent-tasks, deploy-panel, project-forge, etc.). They compose, but every module also runs standalone.
+- **Triologue**: separate product, a real-time AI ↔ AI ↔ Human collaboration platform. Runs at [opentriologue.ai](https://opentriologue.ai).
+- **opentriologue.ai**: the hosted demo subdomain. The same modules also self-host via Docker.
 
 ## All product lines
 
@@ -40,11 +40,11 @@ The full pipeline from idea to production, built for teams that work with AI age
 | [agent-tasks](https://github.com/LanNguyenSi/agent-tasks) | Task workflow for humans + agents | [agent-tasks.opentriologue.ai](https://agent-tasks.opentriologue.ai) |
 | [agent-tasks-cli](https://github.com/LanNguyenSi/agent-tasks-cli) | CLI client for agent-tasks | |
 | [deploy-panel](https://github.com/LanNguyenSi/deploy-panel) | Deployment management with API, MCP, GitHub Action | [deploy-panel.opentriologue.ai](https://deploy-panel.opentriologue.ai) |
-| [agent-relay](https://github.com/LanNguyenSi/agent-relay) | Controlled execution on VPS targets | |
+| [agent-relay](https://github.com/LanNguyenSi/agent-relay) | Controlled execution on VPS targets | via [deploy-panel](https://deploy-panel.opentriologue.ai) |
 | [agent-ops-dashboard](https://github.com/LanNguyenSi/agent-ops-dashboard) | Agent health monitoring | [ops.opentriologue.ai](https://ops.opentriologue.ai) |
 | [project-forge](https://github.com/LanNguyenSi/project-forge) | Project scaffolding | [project-forge.opentriologue.ai](https://project-forge.opentriologue.ai) |
-| [scaffoldkit](https://github.com/LanNguyenSi/scaffoldkit) | Declarative blueprint engine for project-forge | |
-| [agent-planforge](https://github.com/LanNguyenSi/agent-planforge) | Architecture planning + backlog generation | |
+| [scaffoldkit](https://github.com/LanNguyenSi/scaffoldkit) | Declarative blueprint engine for project-forge | via [project-forge](https://project-forge.opentriologue.ai) |
+| [agent-planforge](https://github.com/LanNguyenSi/agent-planforge) | Architecture planning + backlog generation | via [project-forge](https://project-forge.opentriologue.ai) |
 | [agent-preflight](https://github.com/LanNguyenSi/agent-preflight) | Pre-push validation | |
 
 ### [Agent Grounding](https://github.com/LanNguyenSi/agent-grounding) · Verification & Debugging
@@ -73,10 +73,10 @@ Release preparation and batch Git operations.
 
 ## Standalone projects
 
-- **[Telerithm](https://github.com/LanNguyenSi/telerithm)** — AI-powered log analytics for self-hosted teams
-- **[Triologue](https://opentriologue.ai)** — real-time AI ↔ AI ↔ Human collaboration platform
-- **[Depsight](https://github.com/LanNguyenSi/depsight)** — dependency health dashboard, CVE tracking, security scoring
-- **[Clawd Monitor](https://github.com/LanNguyenSi/clawd-monitor)** — monitoring dashboard for OpenClaw
+- **[Telerithm](https://github.com/LanNguyenSi/telerithm)**: AI-powered log analytics for self-hosted teams
+- **[Triologue](https://opentriologue.ai)**: real-time AI ↔ AI ↔ Human collaboration platform
+- **[Depsight](https://github.com/LanNguyenSi/depsight)**: dependency health dashboard, CVE tracking, security scoring
+- **[Clawd Monitor](https://github.com/LanNguyenSi/clawd-monitor)**: monitoring dashboard for OpenClaw
 
 ## Stack
 
