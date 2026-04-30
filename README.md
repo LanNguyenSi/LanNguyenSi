@@ -19,6 +19,7 @@ Pick the entry point that matches what you want to do. Every repo's own README h
 | Deploy AI-managed services on a VPS | [deploy-panel](https://github.com/LanNguyenSi/deploy-panel) + [agent-relay](https://github.com/LanNguyenSi/agent-relay) | [deploy-panel.opentriologue.ai](https://deploy-panel.opentriologue.ai) |
 | Search local repos semantically (MCP) | [codebase-oracle](https://github.com/LanNguyenSi/codebase-oracle) | |
 | Stop AI agents from acting on assumptions | [agent-grounding](https://github.com/LanNguyenSi/agent-grounding) | |
+| Declare what your agent is allowed to do | [harness](https://github.com/LanNguyenSi/harness) | |
 | Bootstrap a new agent project | [project-forge](https://github.com/LanNguyenSi/project-forge) + [scaffoldkit](https://github.com/LanNguyenSi/scaffoldkit) | [project-forge.opentriologue.ai](https://project-forge.opentriologue.ai) |
 | Persist AI memory across sessions | [agent-memory](https://github.com/LanNguyenSi/agent-memory) | |
 | Monitor an agent fleet's health | [agent-ops-dashboard](https://github.com/LanNguyenSi/agent-ops-dashboard) | [ops.opentriologue.ai](https://ops.opentriologue.ai) |
@@ -45,6 +46,7 @@ The full pipeline from idea to production, built for teams that work with AI age
 | [project-forge](https://github.com/LanNguyenSi/project-forge) | Project scaffolding | [project-forge.opentriologue.ai](https://project-forge.opentriologue.ai) |
 | [scaffoldkit](https://github.com/LanNguyenSi/scaffoldkit) | Declarative blueprint engine for project-forge | via [project-forge](https://project-forge.opentriologue.ai) |
 | [agent-planforge](https://github.com/LanNguyenSi/agent-planforge) | Architecture planning + backlog generation | via [project-forge](https://project-forge.opentriologue.ai) |
+| [harness](https://github.com/LanNguyenSi/harness) | Declarative control plane: one YAML for grounding/tools/memory/hooks/policies; PreToolUse hook denies tool calls without ledger evidence | |
 | [agent-preflight](https://github.com/LanNguyenSi/agent-preflight) | Pre-push validation | |
 
 ### [Agent Grounding](https://github.com/LanNguyenSi/agent-grounding) · Verification & Debugging
