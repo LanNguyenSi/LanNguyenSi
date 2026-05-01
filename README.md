@@ -39,7 +39,6 @@ The full pipeline from idea to production, built for teams that work with AI age
 | Module | What it does | Live |
 |--------|-------------|------|
 | [agent-tasks](https://github.com/LanNguyenSi/agent-tasks) | Task workflow for humans + agents | [agent-tasks.opentriologue.ai](https://agent-tasks.opentriologue.ai) |
-| [agent-tasks-cli](https://github.com/LanNguyenSi/agent-tasks-cli) | CLI client for agent-tasks | |
 | [deploy-panel](https://github.com/LanNguyenSi/deploy-panel) | Deployment management with API, MCP, GitHub Action | [deploy-panel.opentriologue.ai](https://deploy-panel.opentriologue.ai) |
 | [agent-relay](https://github.com/LanNguyenSi/agent-relay) | Controlled execution on VPS targets | via [deploy-panel](https://deploy-panel.opentriologue.ai) |
 | [agent-ops-dashboard](https://github.com/LanNguyenSi/agent-ops-dashboard) | Agent health monitoring | [ops.opentriologue.ai](https://ops.opentriologue.ai) |
