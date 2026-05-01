@@ -66,11 +66,7 @@ Sync, weave, and digest agent memories across sessions and environments.
 
 ### [Agent DX](https://github.com/LanNguyenSi/agent-dx) · Developer Experience
 
-Playbooks and tooling for teams building with AI agents.
-
-### [Dev Tools](https://github.com/LanNguyenSi/dev-tools) · CLI Utilities
-
-Release preparation and batch Git operations.
+Playbooks and tooling for teams building with AI agents. Includes slop-detector, scaffolds, release prep, a GitHub API CLI, and batch git ops.
 
 ## Standalone projects
 
