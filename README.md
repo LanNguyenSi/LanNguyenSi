@@ -14,7 +14,7 @@ Pick the entry point that matches what you want to do. Every repo's own README h
 
 | If you want to… | Start with | Live |
 |---|---|---|
-| Run AI agents on tasks with audit trail | [agent-tasks](https://github.com/LanNguyenSi/agent-tasks) + [agent-tasks-cli](https://github.com/LanNguyenSi/agent-tasks-cli) | [agent-tasks.opentriologue.ai](https://agent-tasks.opentriologue.ai) |
+| Run AI agents on tasks with audit trail | [agent-tasks](https://github.com/LanNguyenSi/agent-tasks) + [agent-tasks-cli](https://github.com/LanNguyenSi/agent-tasks/tree/master/cli) | [agent-tasks.opentriologue.ai](https://agent-tasks.opentriologue.ai) |
 | Track CVEs, licenses, dep health across repos | [depsight](https://github.com/LanNguyenSi/depsight) | [depsight.opentriologue.ai](https://depsight.opentriologue.ai) |
 | Deploy AI-managed services on a VPS | [deploy-panel](https://github.com/LanNguyenSi/deploy-panel) + [agent-relay](https://github.com/LanNguyenSi/agent-relay) | [deploy-panel.opentriologue.ai](https://deploy-panel.opentriologue.ai) |
 | Search local repos semantically (MCP) | [codebase-oracle](https://github.com/LanNguyenSi/codebase-oracle) | |
