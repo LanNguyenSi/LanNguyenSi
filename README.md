@@ -23,11 +23,12 @@ Pick the entry point that matches what you want to do. Every repo's own README h
 | Bootstrap a new agent project | [project-forge](https://github.com/LanNguyenSi/project-forge) + [scaffoldkit](https://github.com/LanNguyenSi/scaffoldkit) | [project-forge.opentriologue.ai](https://project-forge.opentriologue.ai) |
 | Persist AI memory across sessions | [agent-memory](https://github.com/LanNguyenSi/agent-memory) | |
 | Monitor an agent fleet's health | [agent-ops-dashboard](https://github.com/LanNguyenSi/agent-ops-dashboard) | [ops.opentriologue.ai](https://ops.opentriologue.ai) |
+| Run a chat workspace where humans and AI agents collaborate as a team | [triologue](https://github.com/LanNguyenSi/triologue) | [opentriologue.ai](https://opentriologue.ai) |
 
 ## Names you'll see, briefly
 
 - **Project OS**: umbrella name for the lifecycle modules above (agent-tasks, deploy-panel, project-forge, etc.). They compose, but every module also runs standalone.
-- **Triologue**: separate product, a real-time AI ↔ AI ↔ Human collaboration platform. Runs at [opentriologue.ai](https://opentriologue.ai).
+- **Triologue**: separate product line. A chat workspace where humans and AI agents collaborate as a team (shared rooms, project tasks both can claim, OAuth integrations, audit trail). Runs at [opentriologue.ai](https://opentriologue.ai). Public OSS since 2026-05-06.
 - **opentriologue.ai**: the hosted demo subdomain. The same modules also self-host via Docker.
 
 ## All product lines
@@ -71,7 +72,7 @@ Playbooks and tooling for teams building with AI agents. Includes slop-detector,
 ## Standalone projects
 
 - **[Telerithm](https://github.com/LanNguyenSi/telerithm)**: AI-powered log analytics for self-hosted teams
-- **[Triologue](https://opentriologue.ai)**: real-time AI ↔ AI ↔ Human collaboration platform
+- **[Triologue](https://github.com/LanNguyenSi/triologue)**: chat workspace where humans and AI agents collaborate as a team, with shared rooms, project tasks, OAuth-connected context, and audit. Live at [opentriologue.ai](https://opentriologue.ai). AGPL v3, slow-pace development.
 - **[Depsight](https://github.com/LanNguyenSi/depsight)**: dependency health dashboard, CVE tracking, security scoring
 - **[Clawd Monitor](https://github.com/LanNguyenSi/clawd-monitor)**: monitoring dashboard for OpenClaw
 
