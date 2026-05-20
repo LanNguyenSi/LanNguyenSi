@@ -33,7 +33,7 @@ Pick the entry point that matches what you want to do. Every repo's own README h
 
 ## All product lines
 
-### [Project OS](https://github.com/LanNguyenSi/project-os) · Human-Agent Dev Lifecycle
+### Project OS · Human-Agent Dev Lifecycle
 
 The full pipeline from idea to production, built for teams that work with AI agents.
 
