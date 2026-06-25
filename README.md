@@ -8,6 +8,39 @@
 
 I architect GovTech platforms at **publicplan**. In parallel I build an open-source ecosystem that lets AI agents plan, build, validate, deploy, and monitor software alongside humans, focused on trustworthy autonomy through claim gates, grounding, and human-in-the-loop patterns.
 
+## Architecture
+
+The ecosystem covers the full human-agent software lifecycle, from planning to production.
+
+```mermaid
+flowchart TD
+    subgraph Policy["harness · Policy Plane"]
+        H["harness<br/>control plane"]
+    end
+
+    subgraph DevLifecycle["Project OS · Human-Agent Dev Lifecycle"]
+        direction LR
+        PLAN["agent-planforge<br/>plan + backlog"]
+        SCAFFOLD["project-forge / scaffoldkit<br/>scaffold"]
+        COORD["agent-tasks<br/>coordinate"]
+        VERIFY["agent-grounding<br/>verify"]
+        GATE["agent-preflight<br/>gate"]
+        DEPLOY["deploy-panel / agent-relay<br/>deploy"]
+        MONITOR["agent-ops-dashboard<br/>monitor"]
+        PLAN --> SCAFFOLD --> COORD --> VERIFY --> GATE --> DEPLOY --> MONITOR
+    end
+
+    subgraph CrossCutting["Cross-cutting layers"]
+        direction LR
+        ORACLE["codebase-oracle<br/>semantic search"]
+        MEMORY["agent-memory<br/>persistent memory"]
+        TRI["triologue<br/>human+agent chat"]
+    end
+
+    H -.->|governs| DevLifecycle
+    CrossCutting -.->|serves all stages| DevLifecycle
+```
+
 ## Start here
 
 Pick the entry point that matches what you want to do. Every repo's own README has the setup details.
