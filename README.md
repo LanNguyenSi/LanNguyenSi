@@ -12,7 +12,7 @@ I architect GovTech platforms at **publicplan**. In parallel I build an open-sou
 
 ## Architecture
 
-Most repos here are modules of one **Project OS**: a single pipeline that carries software from idea to production with AI agents in the loop; [project-pilot](https://github.com/LanNguyenSi/project-pilot) gives that pipeline one dashboard. Each module also runs standalone. [Triologue](https://github.com/LanNguyenSi/triologue), the human-and-agent chat workspace, is a separate product line; `opentriologue.ai` is the shared hosted demo.
+Most repos here are modules of one **Project OS**: a single pipeline that carries software from idea to production with AI agents in the loop; [project-pilot](https://github.com/LanNguyenSi/project-pilot) puts its create, develop, and deploy stages behind one dashboard. Each module also runs standalone. [Triologue](https://github.com/LanNguyenSi/triologue), the human-and-agent chat workspace, is a separate product line; `opentriologue.ai` is the shared hosted demo.
 
 ```mermaid
 flowchart TD
@@ -59,16 +59,16 @@ flowchart TD
 | [agent-tasks](https://github.com/LanNguyenSi/agent-tasks) | Task workflow for humans + agents, with claim gates and audit | [agent-tasks.opentriologue.ai](https://agent-tasks.opentriologue.ai) |
 | [agent-grounding](https://github.com/LanNguyenSi/agent-grounding) | Stops agents acting on assumptions: claim gates, evidence ledger, runtime checks | |
 | [agent-preflight](https://github.com/LanNguyenSi/agent-preflight) | Local pre-push validation with an agent-readable confidence score | |
-| [deploy-panel](https://github.com/LanNguyenSi/deploy-panel) | Deployment control with an API and an MCP server | |
-| [agent-relay](https://github.com/LanNguyenSi/agent-relay) | Controlled execution on VPS targets | via [deploy-panel](https://github.com/LanNguyenSi/deploy-panel) |
+| [deploy-panel](https://github.com/LanNguyenSi/deploy-panel) | Deployment control with an API, an MCP server, and a GitHub Action | |
+| [agent-relay](https://github.com/LanNguyenSi/agent-relay) | Controlled execution on VPS targets | |
 | [agent-ops-dashboard](https://github.com/LanNguyenSi/agent-ops-dashboard) | Agent-fleet + repo health monitoring | [ops.opentriologue.ai](https://ops.opentriologue.ai) |
 | [harness](https://github.com/LanNguyenSi/harness) | Declarative control plane: one YAML for grounding/tools/memory/hooks/policies | |
 
-**Supporting libraries**
+**Supporting libraries and tools**
 
 | Library | What it does |
 |---------|--------------|
-| [codebase-oracle](https://github.com/LanNguyenSi/codebase-oracle) | Local-first MCP server for semantic search across all your repos |
+| [codebase-oracle](https://github.com/LanNguyenSi/codebase-oracle) | Semantic search across all your local repos, via MCP or CLI |
 | [agent-memory](https://github.com/LanNguyenSi/agent-memory) | Sync, route, and digest agent memory across sessions and machines |
 | [agent-dx](https://github.com/LanNguyenSi/agent-dx) | Workshop of CLIs and playbooks for building AI-agent coding workflows: slop-detector, orchestrator-workflow, okf-kit |
 | [repo-intelligence](https://github.com/LanNguyenSi/repo-intelligence) | Repository hygiene, PR quality, CI health, and performance-drift scoring; sibling to depsight and agent-ops-dashboard |
