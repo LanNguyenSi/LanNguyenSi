@@ -8,7 +8,7 @@
 
 I architect GovTech platforms at **publicplan**. In parallel I build an open-source ecosystem that lets AI agents plan, build, validate, deploy, and monitor software alongside humans, focused on trustworthy autonomy through claim gates, grounding, and human-in-the-loop patterns.
 
-**New here?** The quickest thing to grasp is **[depsight](https://github.com/LanNguyenSi/depsight)**: a CVE, license, and dependency-health dashboard with a **Dev Login** (no setup, no credentials) at **[depsight.opentriologue.ai](https://depsight.opentriologue.ai)**. The most mature module is **[agent-tasks](https://github.com/LanNguyenSi/agent-tasks)**: enforced workflows for humans and AI agents. The map below shows how it all fits together.
+**New here?** The quickest thing to grasp is **[depsight](https://github.com/LanNguyenSi/depsight)**: a CVE, license, and dependency-health dashboard. Clone it and run `make dev` (Docker) to try it locally with its **Dev Login**, no GitHub credentials needed; the hosted instance at **[depsight.opentriologue.ai](https://depsight.opentriologue.ai)** signs in with GitHub. The most mature module is **[agent-tasks](https://github.com/LanNguyenSi/agent-tasks)**: enforced workflows for humans and AI agents. The map below shows how it all fits together.
 
 ## Architecture
 
@@ -36,7 +36,6 @@ flowchart TD
         direction LR
         ORACLE["codebase-oracle<br/>semantic search"]
         MEMORY["agent-memory<br/>persistent memory"]
-        TRI["triologue<br/>human+agent chat"]
     end
 
     H -.->|governs| DevLifecycle
@@ -44,7 +43,7 @@ flowchart TD
 ```
 
 <details>
-<summary><b>The full ecosystem: every repo, grouped</b></summary>
+<summary><b>Modules and supporting tools, grouped</b></summary>
 
 <br>
 
