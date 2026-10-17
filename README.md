@@ -82,6 +82,10 @@ flowchart TD
 - **[telerithm](https://github.com/LanNguyenSi/telerithm)**: AI-powered log analytics for self-hosted teams
 - **[clawd-monitor](https://github.com/LanNguyenSi/clawd-monitor)**: monitoring dashboard for OpenClaw, fed by the push-based [clawd-monitor-agent](https://github.com/LanNguyenSi/clawd-monitor-agent)
 
+## Research
+
+- **[lane-arena](https://github.com/LanNguyenSi/lane-arena)**: pilot pitting a local open-weight model (the "lane") against Claude and GPT on real tickets, with blind review and hidden tests
+
 ## Stack
 
 TypeScript · Next.js · Hono · Node.js · PostgreSQL · Prisma · Docker · Traefik · Symfony
